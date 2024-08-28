@@ -1,5 +1,5 @@
 # Base image with Maven and JDK 21 Temurin
-FROM eclipse-temurin:21-jdk as build
+FROM eclipse-temurin:21-jdk AS build
 
 # Set working directory
 WORKDIR /home/user-service
